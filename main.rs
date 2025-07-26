@@ -8,6 +8,9 @@ fn main() {
     println!("{}", string_var);
     // this is declaring and defining an integer.
     const MY_INT: i8 = 3;
+    // the next two lines proof that rust is statically typed
+    // let mut my_static_variable = 3;
+    // my_static_variable = "Test";
     let mut my_variable_unsigned_int: u8 = 10;
     my_variable_unsigned_int = my_variable_unsigned_int - 10;
     println!("The unsigned integer has been reduced to:\t{}", my_variable_unsigned_int);
